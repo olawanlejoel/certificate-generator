@@ -130,7 +130,7 @@
     </center>
 
       <footer>  
-          <center><p>Built with &#10084; by <a href="https://olawanlejoel.github.io/portfolio/">Olawanle Joel</a></p></center>
+          <center><p>Built with &#10084; by <a href="joel-new.netlify.app">Olawanle Joel</a></p></center>
       </footer>
 
     <!-- Optional JavaScript -->
