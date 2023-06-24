@@ -28,7 +28,7 @@
     <?php 
       if (isset($_POST['generate'])) {
         $name = strtoupper($_POST['name']);
-        $name_len = strlen($_POST['name']);
+        $name_len = strlen($name);
         $occupation = strtoupper($_POST['occupation']);
         if ($occupation) {
           $font_size_occupation = 10;
@@ -114,12 +114,12 @@
 
  ?>
         <!-- this displays the image below -->
-        <img src="<?php echo $output; ?>">
+        <img src="<?=$output;?>">
         <br> 
         <br>
 
         <!-- this provides a download button -->
-        <a href="<?php echo $output; ?>" class="btn btn-success">Download My Internship Certificate</a>
+        <a href="<?=$output;?>" class="btn btn-success">Download My Internship Certificate</a>
         <br><br>
 <?php 
         }
