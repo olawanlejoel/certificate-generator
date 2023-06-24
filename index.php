@@ -28,7 +28,7 @@
     <?php 
       if (isset($_POST['generate'])) {
         $name = strtoupper($_POST['name']);
-        $name_len = strlen($_POST['name']);
+        $name_len = strlen($name);
         $occupation = strtoupper($_POST['occupation']);
         if ($occupation) {
           $font_size_occupation = 10;
