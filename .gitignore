@@ -1,0 +1,9 @@
+# Ignore generated certificates
+/public/generated/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore IDE files
+.idea/
+.vscode/ 
